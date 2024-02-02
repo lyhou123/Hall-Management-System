@@ -81,8 +81,8 @@ public class MainApplication {
         System.out.println("=".repeat(90));
         ClassUI.Welcome();
         System.out.println("=".repeat(90));
-        String Row=validate("Please enter number rows for hall=", scanner, "[0-9]+");
-        String Col=validate("Please enter number columns for hall=", scanner, "[0-9]+");
+        String Row=validate("Please enter number rows for hall=", scanner, "[1-9]+");
+        String Col=validate("Please enter number columns for hall=", scanner, "[1-9]+");
         int row=Integer.parseInt(Row);
         int col=Integer.parseInt(Col);
         System.out.println("=".repeat(90));
